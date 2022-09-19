@@ -1,0 +1,31 @@
+﻿.about-container{
+    width: 80%;
+    margin: auto;
+}
+
+.about-container h2{
+    text-align: center;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 32px;
+}
+
+.about-item h4{
+    text-align: justify;
+}
+
+.about-item div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-item img{
+    width: 700px;
+    height: 400px;
+}

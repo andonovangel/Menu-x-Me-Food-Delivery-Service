@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Menu_x_Me_App.Models.Food>
+
+@{
+    ViewBag.Title = "Burger Menu";
+}
+
+@Styles.Render("~/Content/Menus.css")
+
+<h1 class="text-center prime-title">Burger Menu</h1>
+
+<div class="container d-flex justify-content-center mt-50 mb-50">
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            if (item.TypeFood.Equals("Burger"))
+            {
+                <div class="col-md-4 mt-50">
+
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+
+                                <img src="@item.ImageURL" class="card-img img-fluid" alt="">
+
+
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2 text-left">
+                                <h3 class="font-weight-semibold mb-2 prime-title"><a href="@Url.Action("FoodProductView", "Home", new { id = item.Id })">@item.Name</a></h3>
+                            </div>
+
+                            <div class="text-desc text-left">
+                                <h5>Praesent et lacus viverra, dapibus sem at, bibendum elit in nec tempus nunc. </h5>
+                            </div>
+
+                            <div class="card-bottom">
+                                <div class="card-bottom-item card-bottom-item-start">
+                                    <h3 class="mb-0 font-weight-semibold">$@item.Price</h3>
+                                </div>
+
+                                <div class="card-bottom-item card-bottom-item-end">
+                                    <button type="submit" onclick="@("window.location.href='" + @Url.Action("FoodProductView", "Home", new {id = item.Id }) + "'");" class="btn bg-cart">@*<i class="fa-solid fa-cart-shopping"></i>*@ADD TO CART</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            }
+        }
+
+
+
+    </div>
+</div>
+
+

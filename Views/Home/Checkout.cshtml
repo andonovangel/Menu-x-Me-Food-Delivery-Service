@@ -1,0 +1,94 @@
+﻿@model Menu_x_Me_App.Models.Food
+
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/Content/Checkout.css")
+
+
+@if (TempData["cart"] != null)
+{
+    <main id="main-container" class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-content">
+                        <h2 class="section-content-title">Your cart items</h2>
+                    </div>
+
+                    <!-- Start Cart Table -->
+                    <div class="table-content cart-table-content">
+                        <table>
+                            <tbody>
+                                @foreach (var item in TempData["cart"] as List<Menu_x_Me_App.Models.Cart>)
+                                {
+                                    <tr>
+                                        <td class="product-thumbnail">
+                                            <a href="@Url.Action("FoodProductView", "Home", new { id = item.ProductId })"><img class="img-fluid" src="@item.ProductPic" width="100"></a>
+                                        </td>
+                                        <td class="product-name"><a href="@Url.Action("FoodProductView", "Home", new { id = item.ProductId })">@item.ProductName</a> x @item.Qty</td>
+                                        <td class="product-price-cart"><span class="amount">$@item.Price</span></td>
+                                        <td class="product-remove">
+                                            <a href="@Url.Action("Remove", "Home", new {id = @item.ProductId })">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag-x-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6.854 8.146a.5.5 0 1 0-.708.708L7.293 10l-1.147 1.146a.5.5 0 0 0 .708.708L8 10.707l1.146 1.147a.5.5 0 0 0 .708-.708L8.707 10l1.147-1.146a.5.5 0 0 0-.708-.708L8 9.293 6.854 8.146z" />
+                                                </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                }
+                            </tbody>
+                        </table>
+                        <br>
+                        <h3>Total: $@TempData["total"] </h3>
+                        <div class="client-info">
+                            <div class="client-contact client-item">
+                                <input class="contact" name="phone" type="text" placeholder="Phone Number" /> <br />
+                                <input class="contact" name="address" type="text" placeholder="Address" />
+                            </div>
+                            <div class="client-text client-item">
+                                <textarea placeholder="Your Message..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Cart Table -->
+
+                    <!-- Start Cart Table Button -->
+                    <div class="cart-table-button m-t-10">
+                        <div class="cart-table-button--left item">
+                            <input type="button" class="link-btn btn" onclick="@("window.location.href='" + @Url.Action("Index", "Home") + "'");" value="CONTINUE SHOPPING">
+                        </div>
+                        <div class="cart-table-button--right item">
+                            @if (TempData["cart"] != null)
+                            {
+                                using (Html.BeginForm())
+                                {
+                                    @*<a href="@Url.Action("ClearShoppingCart", "Home")" class="link-btn">CLEAR SHOPPING CART</a>*@
+                                    <input type="button" class="link-btn btn" onclick="@("window.location.href='" + @Url.Action("ClearShoppingCart", "Home") + "'");" value="CLEAR SHOPPING CART">
+                                    <input type="submit" class="link-btn btn" onclick="@("window.location.href='" + @Url.Action("PlacedOrder", "Home") + "'");" value="PLACE ORDER">
+                                }
+                            }
+
+                        </div>
+                    </div>
+                    <!-- End Cart Table Button -->
+
+                </div>
+            </div>
+        </div>
+    </main>
+}
+
+else
+{
+    <main id="main-container" class="main-container">
+        <div class="container">
+            <div class="row">
+                <h1>Cart is Empty</h1>
+            </div>
+        </div>
+    </main>
+}

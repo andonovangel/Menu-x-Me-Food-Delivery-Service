@@ -1,0 +1,91 @@
+﻿.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*gap: 30rem;*/
+    margin-bottom: 40px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.contact-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2b713;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contact-circle img {
+    width: 20px;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+
+.socials-copyright {
+    flex: 1;
+}
+
+.socials-copyright h5 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.socials-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 0.51s;
+    cursor: pointer;
+}
+
+.socials-circle:hover {
+    background-color: #f2b713;
+}
+
+.socials-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socials-newsletter button {
+    transition: .51s;
+    background-color: #f2b713;
+    border: 1px solid #f2b713;
+    border-radius: 14px;
+    height: 42px;
+    font-weight: 700;
+    width: 119px;
+}
+
+.socials-newsletter button:hover {
+    background-color: #bc1e51;
+    border: 1px solid #bc1e51;
+    color: white;
+}

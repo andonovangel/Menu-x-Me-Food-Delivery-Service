@@ -1,0 +1,99 @@
+﻿.prime-title {
+    font-family: Abril Fatface;
+}
+
+.product-container {
+    background-color: #f7f7f7;
+    margin-top: 48px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.container-top {
+    /*flex: 3;*/
+    padding-top: 63px;
+}
+
+.container-bottom .container-bottom-first {
+    display: flex;
+    gap: 3rem;
+}
+
+    .container-bottom .container-bottom-first .end {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+.container-bottom .container-bottom-second {
+    display: flex;
+    gap: 3rem;
+}
+
+    .container-bottom .container-bottom-second .item, .container-bottom .container-bottom-first .item {
+        flex: 1;
+    }
+
+    .container-bottom .container-bottom-second .end {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 3rem;
+    }
+
+.product-description {
+    font-size: 14px;
+    width: 218px;
+    text-align: justify;
+}
+
+.bg-cart {
+    background-color: #f2b713;
+    color: #fff;
+    border-radius: 17px;
+    line-height: 2.07;
+    width: 165px;
+    transition: .51s;
+    font-weight: 700;
+    color: black;
+}
+
+    .bg-cart:hover {
+        background-color: #bc1e51;
+        color: #ffffff
+    }
+
+.form-type-number {
+    position: relative;
+    height: 50px;
+}
+
+input {
+    width: 65px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 14px;
+    margin: 5px;
+}
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+
+.btn-minus, .btn-plus {
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-minus {
+    left: 10px;
+}
+
+.btn-plus {
+    right: 10px;
+}

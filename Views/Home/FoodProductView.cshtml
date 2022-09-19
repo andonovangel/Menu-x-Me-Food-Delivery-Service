@@ -1,0 +1,77 @@
+﻿@model Menu_x_Me_App.Models.Food
+
+@{
+    ViewBag.Title = Model.Name;
+}
+
+@Styles.Render("~/Content/FoodProduct.css")
+@Styles.Render("~/Content/Compact.css")
+
+<div class="compact-container">
+
+    <main>
+        @using (Html.BeginForm("FoodProductView",
+                            "Home",
+                            FormMethod.Post,
+                            new { enctype = "multipart/form-data" }))
+        {
+
+
+
+            <div class="product-container">
+                <div class="container-top text-center">
+                    <img src="@Model.ImageURL" width="500" />
+                </div>
+                <div class="container-bottom">
+                    <div class="container-bottom-first">
+                        <div class="item start">
+                            <h2 class="prime-title">@Model.Name</h2>
+                        </div>
+                        <div class="item end form-type-number">
+                            @*<input type="number" class="quantity" name="quantity" value="1" min="1">*@
+                            <div class="btn-minus">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </div>
+                            <input class="quantity" value="1" min="1" name="quantity" type="number" />
+                            <div class="btn-plus">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-bottom-second">
+                        <div class="item start">
+                            <h4 class="product-description">Praesent et lacus viverra, dapibus sem at, bibendum elit in nec tempus nunc.</h4>
+                        </div>
+                        <div class="item end">
+                            <h3 class="product-price">$@Model.Price</h3>
+                            <button type="submit" class="btn bg-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </main>
+</div>
+
+@section scripts{
+    <script src="https://kit.fontawesome.com/f0419e944a.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.btn-minus').on('click', function (e) {
+                var input = $(e.target).closest('.form-type-number').find('input');
+                input[0]['stepDown']();
+            });
+            $('.btn-plus').on('click', function (e) {
+                var input = $(e.target).closest('.form-type-number').find('input');
+                input[0]['stepUp']();
+            });
+        });
+    </script>
+} 

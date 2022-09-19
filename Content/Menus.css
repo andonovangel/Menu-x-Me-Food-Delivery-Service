@@ -1,0 +1,130 @@
+﻿body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.mt-50 {
+    margin-top: 25px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.prime-title {
+    font-family: Abril Fatface;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid rgb(8 4 4 / 8%);
+    border-radius: 2rem;
+    padding-top: 2px;
+    transition: .51s;
+}
+
+.card:hover {
+    border: 3px solid #f2b713;
+}
+
+.card-img-actions {
+    position: relative;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-body .mb-2 h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.card-body .mb-2 h3 a {
+    position: relative;
+    padding: 0.2em 0;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.card-body .mb-2 h3 a:hover {
+    color: #4b595c;
+}
+
+.card-body .mb-2 h3 a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: #f2b713;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.card-body .mb-2 h3 a::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.card-body .mb-2 h3 a:hover::after,
+.card-body .mb-2 h3 a:focus::after {
+    transform: scale(1);
+}
+
+.card-body .text-desc h5 {
+    color: #5e5e5e;
+    margin-top: 10px;
+}
+
+.card-img {
+    width: 273px;
+    height: 233px;
+    border-radius: 14%;
+}
+
+.card-bottom {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.card-bottom-item {
+    flex: 1;
+}
+
+.card-bottom-item-start h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.bg-cart {
+    background-color: #f2b713;
+    color: #fff;
+    border-radius: 17px;
+    line-height: 2.07;
+    width: 165px;
+    transition: .51s;
+    font-weight: 700;
+    color: #000000;
+}
+
+.bg-cart:hover {
+    background-color: #bc1e51;
+    color: #ffffff
+}
