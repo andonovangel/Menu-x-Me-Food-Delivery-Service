@@ -4,56 +4,63 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+@Styles.Render("~/Content/Compact.css")
 
-<div>
-    <h4>Food</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
+<div class="compact-container">
 
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
+    <h2>Details</h2>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ImageURL)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ImageURL)
-        </dd>
-
-    </dl>
-</div>
-
-@if (User.IsInRole("Administrator") || User.IsInRole("Editor"))
-{
     <div>
-        <ul>
-            @foreach (var client in Model.clients)
-            {
-                <li>
-                    <a href="/Clients/Details/@client.Id">@client.Name</a>
-                </li>
-            }
-        </ul>
+        <h4>Food</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ImageURL)
+            </dd>
+
+        </dl>
     </div>
-}
 
-<hr />
-
-@if (User.IsInRole("Administrator") || User.IsInRole("Editor"))
-{
-    <input type="button" class="btn btn-default" value="Insert client to movie" onclick="@("window.location.href='" + @Url.Action("InsertNewClient", "Foods", new { id = Model.Id }) + "'");" />
-}
-
-<div>
     @if (User.IsInRole("Administrator") || User.IsInRole("Editor"))
     {
-        <input type="button" class="btn btn-default" value="Edit" onclick="@("window.location.href='" + @Url.Action("Edit", "Foods", new { id = Model.Id }) + "'");" />
+        <div>
+            <ul>
+                @foreach (var client in Model.clients)
+                {
+                    <li>
+                        <a href="/Clients/Details/@client.Id">@client.Name</a>
+                    </li>
+                }
+            </ul>
+        </div>
     }
-    <input type="button" class="btn btn-default" value="Back to List" onclick="@("window.location.href='" + @Url.Action("Index", "Foods") + "'");" />
+
+    <hr />
+
+    @if (User.IsInRole("Administrator") || User.IsInRole("Editor"))
+    {
+        <input type="button" class="btn btn-default" value="Insert client to movie" onclick="@("window.location.href='" + @Url.Action("InsertNewClient", "Foods", new { id = Model.Id }) + "'");" />
+    }
+
+    <div>
+        @if (User.IsInRole("Administrator") || User.IsInRole("Editor"))
+        {
+            <input type="button" class="btn btn-default" value="Edit" onclick="@("window.location.href='" + @Url.Action("Edit", "Foods", new { id = Model.Id }) + "'");" />
+        }
+        <input type="button" class="btn btn-default" value="Back to List" onclick="@("window.location.href='" + @Url.Action("Index", "Foods") + "'");" />
+    </div>
+
+
 </div>

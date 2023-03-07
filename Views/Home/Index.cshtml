@@ -1,31 +1,114 @@
-﻿@{
+﻿@model IEnumerable<Menu_x_Me_App.Models.Food>
+
+@{
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+@Styles.Render("~/Content/MainPage.css")
+@Styles.Render("~/Content/Menus.css")
+
+<div class="landing-container">
+    <div class="landing-title">
+        <span>Your Favourite Food Delivered Hot & Delicious</span>
+    </div>
+    <img src="~/Images/Burger Background5.png" />
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<div class="product-container" id="#products">
+    <div class="product-title">
+        <h1>PRODUCTS</h1>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="row">
+        <div class="col-md-4">
+            <a class="col-md-12 card-container" onclick="@("window.location.href='" + @Url.Action("BurgerMenu", "Home") + "'");">
+                <div class="img-container">
+                    <img src="~/Images/burger.png" />
+                </div>
+                <h2 class="text-center">Fast Food</h2>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a class="col-md-12 card-container" onclick="@("window.location.href='" + @Url.Action("PizzaMenu", "Home") + "'");">
+                <div class="img-container">
+                    <img src="~/Images/pizza.png" />
+                </div>
+                <h2 class="text-center">Pizza</h2>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a class="col-md-12 card-container" onclick="@("window.location.href='" + @Url.Action("AsianMenu", "Home") + "'");">
+                <div class="img-container">
+                    <img src="~/Images/asian-food.png" />
+                </div>
+                <h2 class="text-center">Asian Food</h2>
+            </a>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</div>
+
+
+<div class="popular-container">
+    <div class="popular-title">
+        <h1>OUR POPULAR RECIPES</h1>
+    </div>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            if (item.Popularity.Equals("Yes"))
+            {
+                <div class="col-md-4 mt-50">
+
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-actions">
+
+                                <img src="@item.ImageURL" class="card-img img-fluid" alt="">
+
+
+                            </div>
+                        </div>
+
+                        <div class="card-body bg-light text-center">
+                            <div class="mb-2 text-left">
+                                <h3 class="font-weight-semibold mb-2 prime-title"><a href="@Url.Action("FoodProductView", "Home", new { id = item.Id })">@item.Name</a></h3>
+                            </div>
+
+                            <div class="text-desc text-left">
+                                <h5>Praesent et lacus viverra, dapibus sem at, bibendum elit in nec tempus nunc. </h5>
+                            </div>
+
+                            <div class="card-bottom">
+                                <div class="card-bottom-item card-bottom-item-start">
+                                    <h3 class="mb-0 font-weight-semibold">$@item.Price</h3>
+                                </div>
+
+                                <div class="card-bottom-item card-bottom-item-end">
+                                    <button type="submit" onclick="@("window.location.href='" + @Url.Action("FoodProductView", "Home", new {id = item.Id }) + "'");" class="btn bg-cart">@*<i class="fa-solid fa-cart-shopping"></i>*@ADD TO CART</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            }
+        }
+
+
+
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="updates-container">
+        <h3>Want to get the latest updates?</h3>
+        <div class="updates-input">
+            <input type="text" class="input-text" placeholder="example@yourmail.com" />
+            <button class="input-button">Submit</button>
+        </div>
     </div>
 </div>

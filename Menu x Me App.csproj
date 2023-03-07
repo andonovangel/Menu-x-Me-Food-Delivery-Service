@@ -184,21 +184,52 @@
     <Compile Include="Migrations\202208151542562_addedClientFoodRelationship.designer.cs">
       <DependentUpon>202208151542562_addedClientFoodRelationship.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202208231610165_added price to food.cs" />
+    <Compile Include="Migrations\202208231610165_added price to food.designer.cs">
+      <DependentUpon>202208231610165_added price to food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208231656071_changed price int to float.cs" />
+    <Compile Include="Migrations\202208231656071_changed price int to float.designer.cs">
+      <DependentUpon>202208231656071_changed price int to float.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208231708066_added type of food.cs" />
+    <Compile Include="Migrations\202208231708066_added type of food.designer.cs">
+      <DependentUpon>202208231708066_added type of food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202209121507151_Added orders list.cs" />
+    <Compile Include="Migrations\202209121507151_Added orders list.designer.cs">
+      <DependentUpon>202209121507151_Added orders list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202209171828044_Added popularity.cs" />
+    <Compile Include="Migrations\202209171828044_Added popularity.designer.cs">
+      <DependentUpon>202209171828044_Added popularity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202210051205195_changedOrderModel.cs" />
+    <Compile Include="Migrations\202210051205195_changedOrderModel.designer.cs">
+      <DependentUpon>202210051205195_changedOrderModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\ClientFood.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\InvoiceModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\About.css" />
+    <Content Include="Content\Blog.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Checkout.css" />
+    <Content Include="Content\Compact.css" />
     <Content Include="Content\DataTables\css\autoFill.bootstrap.css" />
     <Content Include="Content\DataTables\css\autoFill.bootstrap.min.css" />
     <Content Include="Content\DataTables\css\autoFill.bootstrap4.css" />
@@ -356,10 +387,39 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\FoodProduct.css" />
+    <Content Include="Content\Footer.css" />
+    <Content Include="Content\MainPage.css" />
+    <Content Include="Content\Menus.css" />
+    <Content Include="Content\Navbar.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\animation_500_kn5p5ilf.gif" />
+    <Content Include="Images\asian-food.png" />
+    <Content Include="Images\blackburger.jpg" />
+    <Content Include="Images\Burger Background2.png" />
+    <Content Include="Images\Burger Background3.png" />
+    <Content Include="Images\Burger Background4.png" />
+    <Content Include="Images\Burger Background5.png" />
+    <Content Include="Images\burger.png" />
+    <Content Include="Images\email.png" />
+    <Content Include="Images\facebook-app-symbol.png" />
+    <Content Include="Images\food-delivery.gif" />
+    <Content Include="Images\icons8-user-30.png" />
+    <Content Include="Images\instagram.png" />
+    <Content Include="Images\map.png" />
+    <Content Include="Images\margarita.jpg" />
+    <Content Include="Images\Menu x Me - Food Delivery Service.jpg" />
+    <Content Include="Images\Menu x Me Logo.png" />
+    <Content Include="Images\phone-call.png" />
+    <Content Include="Images\pizza.png" />
+    <Content Include="Images\susi.jpg" />
+    <Content Include="Images\team1.jpg" />
+    <Content Include="Images\team2.jpg" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\youtube.png" />
     <Content Include="Scripts\bootbox.js" />
     <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -466,7 +526,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Blog.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -500,6 +560,12 @@
     <Content Include="Views\Clients\Index.cshtml" />
     <Content Include="Views\Foods\InsertNewClient.cshtml" />
     <Content Include="Views\Account\AddUserToRole.cshtml" />
+    <Content Include="Views\Home\BurgerMenu.cshtml" />
+    <Content Include="Views\Home\PizzaMenu.cshtml" />
+    <Content Include="Views\Home\AsianMenu.cshtml" />
+    <Content Include="Views\Home\FoodProductView.cshtml" />
+    <Content Include="Views\Home\Checkout.cshtml" />
+    <Content Include="Views\Home\PlacedOrder.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -523,6 +589,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202208151542562_addedClientFoodRelationship.resx">
       <DependentUpon>202208151542562_addedClientFoodRelationship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208231610165_added price to food.resx">
+      <DependentUpon>202208231610165_added price to food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208231656071_changed price int to float.resx">
+      <DependentUpon>202208231656071_changed price int to float.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208231708066_added type of food.resx">
+      <DependentUpon>202208231708066_added type of food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202209121507151_Added orders list.resx">
+      <DependentUpon>202209121507151_Added orders list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202209171828044_Added popularity.resx">
+      <DependentUpon>202209171828044_Added popularity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210051205195_changedOrderModel.resx">
+      <DependentUpon>202210051205195_changedOrderModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

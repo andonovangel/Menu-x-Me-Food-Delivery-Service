@@ -22,6 +22,7 @@ namespace Menu_x_Me_App.Models
     {
         public DbSet<Client> Clients { get; set; }
         public DbSet<Food> Foods { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

@@ -153,7 +153,7 @@ namespace Menu_x_Me_App.Controllers
             }
 
             UserManager.AddToRole(user.Id, model.SelectedRole);
-            return RedirectToAction("Index", "Foods");
+            return RedirectToAction("Index", "Home");
         }
 
         //

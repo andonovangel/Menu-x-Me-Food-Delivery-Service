@@ -109,3 +109,126 @@ C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me A
 C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.initial.resources
 C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.csproj.GenerateResource.cache
 C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.addedClientFoodRelationship.resources
+C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.addedpricetofood.resources
+C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.changedpriceinttofloat.resources
+C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.addedtypeoffood.resources
+C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.Addedorderslist.resources
+C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.Addedpopularity.resources
+C:\Users\PC\Desktop\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.changedOrderModel.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Menu x Me App.dll.config
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Menu x Me App.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Menu x Me App.pdb
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\csc.exe
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\csc.exe.config
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\csc.rsp
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\csi.exe
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\csi.exe.config
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\csi.rsp
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.AppContext.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Collections.Immutable.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Console.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Globalization.Calendars.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.IO.Compression.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.IO.FileSystem.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Net.Http.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Net.Sockets.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Reflection.Metadata.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.ValueTuple.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Xml.XPath.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\vbc.exe
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\vbc.exe.config
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\vbc.rsp
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\VBCSCompiler.exe
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\roslyn\VBCSCompiler.exe.config
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Antlr3.Runtime.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\EntityFramework.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\EntityFramework.SqlServer.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Google.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Web.Infrastructure.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Newtonsoft.Json.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Owin.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Helpers.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Mvc.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Optimization.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Razor.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.WebPages.Deployment.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.WebPages.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.WebPages.Razor.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\WebGrease.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Helpers.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Mvc.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Optimization.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.Razor.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.WebPages.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.WebPages.Deployment.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\System.Web.WebPages.Razor.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Newtonsoft.Json.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Antlr3.Runtime.pdb
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\EntityFramework.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\EntityFramework.SqlServer.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Google.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.csproj.AssemblyReference.cache
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.initial.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.addedClientFoodRelationship.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.addedpricetofood.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.changedpriceinttofloat.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.addedtypeoffood.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.Addedorderslist.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.Addedpopularity.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu_x_Me_App.Migrations.changedOrderModel.resources
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.csproj.GenerateResource.cache
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.csproj.CoreCompileInputs.cache
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.csproj.CopyComplete
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.dll
+D:\Angel's Folder\FINKI\IV Semestar\IT\IT Project\Menu x Me App\Menu x Me App\obj\Debug\Menu x Me App.pdb
